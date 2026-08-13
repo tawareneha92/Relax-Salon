@@ -1,0 +1,6 @@
+:root{
+  --radius-sm:4px;   /* inline code, small badges */
+  --radius-md:8px;   /* buttons, inputs, selects, dropdowns */
+  --radius-lg:12px;  /* cards, panels, modals, popovers */
+  --radius-full:9999px; /* avatars, chips, pills, progress bars */
+}

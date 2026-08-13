@@ -1,0 +1,4 @@
+/* Ember Studio webfonts. No binaries were supplied with the brand notes, so the three
+   named families are loaded from Google Fonts. Swap these @import lines for local
+   @font-face rules if licensed binaries become available. */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Source+Sans+3:wght@400;600;700&family=Fira+Code:wght@400;500&display=swap");

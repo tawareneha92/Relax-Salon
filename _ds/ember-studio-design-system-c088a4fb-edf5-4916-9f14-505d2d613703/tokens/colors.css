@@ -1,0 +1,44 @@
+:root{
+  /* Base palette — warm, never cool. No pure black or pure white. */
+  --terracotta-600:#C2410C;
+  --terracotta-700:#9A3412;
+  --amber-500:#F59E0B;
+  --stone-500:#78716C;
+  --stone-100:#F5F5F4;
+  --stone-200:#E7E5E4;
+  --stone-300:#D6D3D1;
+  --stone-600:#57534E;
+  --stone-950:#1C1917;
+  --cream-50:#FAFAF9;
+  --green-600:#16A34A;
+  --amber-600:#D97706;
+  --red-600:#DC2626;
+
+  /* Semantic aliases */
+  --color-primary:var(--terracotta-600);
+  --color-primary-hover:var(--terracotta-700);
+  --color-accent:var(--amber-500);
+  --color-neutral:var(--stone-500);
+
+  --surface-page:var(--cream-50);
+  --surface-card:var(--stone-100);
+  --surface-raised:var(--stone-200);
+
+  --text-primary:var(--stone-950);
+  --text-secondary:var(--stone-600);
+  --text-muted:var(--stone-500);
+  --text-on-primary:#FFFFFF;
+
+  --border-default:var(--stone-300);
+  --border-focus:var(--terracotta-600);
+
+  --color-success:var(--green-600);
+  --color-warning:var(--amber-600);
+  --color-error:var(--red-600);
+
+  /* Translucent derivatives */
+  --ring-primary:0 0 0 3px rgba(194,65,12,0.12);
+  --tint-primary:rgba(194,65,12,0.08);
+  --tint-primary-strong:rgba(194,65,12,0.14);
+  --scrim:rgba(28,25,23,0.32);
+}
